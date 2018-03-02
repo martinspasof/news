@@ -1,0 +1,646 @@
+/*
+*
+* main = #ed1b25;
+*
+*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC');
+
+a {
+		  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none; 
+}
+.colorMain {
+	color: #ed1b25 !important;
+}
+
+.shopWrapper h2 {
+	font-family: 'Comfortaa';
+	font-size: 1.6em;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ccc;
+    color: black !important;
+}
+
+.page-label {
+	position: absolute;
+	right: 0px;
+	display: block;
+}
+
+.navbar-light .navbar-toggler {
+    color: black;
+    border: none;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+
+.my-flex-card > div > div.card {
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+
+.item-cart-add {
+	float: left;
+}
+
+/*.item::before {
+	transition: 0.3s all;
+	content: 'виж';
+	font-family: 'Roboto Condensed';
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+    top: 0;
+    transform: translateY(50%);
+	left: 0;
+	display: none;
+	color: #ffffff;
+	opacity: 0.7;
+	font-weight: bolder;
+	font-size: 1.75rem;
+	text-shadow: 0px 0px 100px black;
+
+}
+
+.item:hover::before {
+	display: block;
+}*/
+
+.attribute-option small {
+	font-size: 'Citive Mono' !important;
+}
+.attribute-option:hover {
+	cursor: pointer;
+	color: #ed1b25;
+}
+
+.btn-reset {
+	font-size: 0.9rem;
+}
+.item-price {
+	float: right;
+}
+.brand {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.hockey a:hover {
+	text-decoration: none;
+}
+
+.router-link:hover {
+	cursor: pointer;
+}
+
+.puck {
+	vertical-align: bottom;
+	position: absolute;
+	left: 5vw;
+	bottom: -3px;
+}
+
+
+.attributes-box {
+	pointer-events: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+ }
+.attributes-box div {
+	pointer-events: visible;
+}
+.brand:hover {
+	-webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.sort-controls {
+	  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none; 
+	font-size: 0.9rem;
+	padding: 10px;
+	border-bottom: 1px solid #cccccc50;
+}
+.sort-controls div:hover {
+	cursor: pointer;
+	color: #ed1b25;
+}
+.hover:hover {
+	background: #d8d8d830;
+}
+.divider-mid {
+	border-left: 1px solid #cccccc50;
+	border-right: 1px solid #cccccc50;
+}
+.item-image-wrapper {
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.item-image-background {
+	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-size: 200% 200%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+
+	/* opacity efekt */
+    opacity: 0;
+	height: 33vh;
+	width: 100%;
+
+	-webkit-animation-name: blurOutOpacity;
+	        animation-name: blurOutOpacity;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+}
+.item-image {
+	/*display: none;*/
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 33vh;
+
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.bcrumb {
+	font-size: 12px;
+	color: grey;
+}
+.bcrumb .router-link {
+	color: grey;
+}
+.bcrumb .router-link * {
+	color: grey;
+	font-family: 'Cutive Mono' !important;
+}
+.bcrumb .router-link-icon {
+	color: grey;
+}
+.bcrumb .router-link-active, .bcrumb .router-link:hover, .bcrumb .router-link-icon:hover {
+	color: #ed1b25;
+}
+.item:hover .item-image {
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.product-image-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.product-image-background {
+	width: 100%;
+	padding-top: 54.166666666667%;
+    height: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 0;
+
+	-webkit-animation-name: blurOutOpacity;
+	        animation-name: blurOutOpacity;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+}
+.product-image-thumb {
+	border: 1px solid white;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	padding-top: 54.166666666667%;
+    min-height: 13vh;
+}
+.product-image {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	padding-top: 54.166666666667%;
+    height: 0;
+
+
+	transition: all 3s ease-in;
+	-moz-transition: all 3s ease-in;
+	-ms-transition: all 3s ease-in;
+	-o-transition: all 3s ease-in;
+	-webkit-transition: all 3s ease-in;
+}
+.product-image:hover {
+	-webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+.item strong {
+	font-family: 'Comfortaa';
+	color: #ed1b25; 
+}
+.item {
+	position: relative;
+    padding: 13px; 
+	border-radius: 3px; 
+	border:1px solid transparent; 
+	-webkit-transition: 0.3s all; 
+	transition: 0.3s all;
+	z-index:666;
+    -webkit-box-shadow: inset 0px 0px 100px 1px rgba(0, 0, 0, 0.1),
+    			 0px 0px 20px #00000025;
+            box-shadow: inset 0px 0px 100px 1px rgba(0, 0, 0, 0.1),
+    			 0px 0px 20px #00000025;
+}
+
+.item:hover {
+	    border: 1px solid #ccc;
+	-webkit-transform: scale(1.03);
+	        transform: scale(1.03);
+}
+
+.item::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			border-radius: 3px;
+
+   	-webkit-box-shadow:  0px 0px 5px 2px #00000020, 0px 0px 7px 2px #00000030, 0px 10px 10px -6px #00000075, inset 0px -10px 30px -10px rgba(0, 0, 0, 0.1), inset 0px 0px 7px 1px rgba(255, 255, 255, 1);
+
+   	        box-shadow:  0px 0px 5px 2px #00000020, 0px 0px 7px 2px #00000030, 0px 0px 10px -6px #00000075, inset 0px -10px 30px -10px rgba(0, 0, 0, 0.1), inset 0px 0px 7px 1px rgba(255, 255, 255, 1);
+			opacity: 0;
+
+			-webkit-transition: 0.3s opacity ease-in-out;
+			transition: 0.3s opacity ease-in-out;
+}
+
+.item:hover::after {
+			opacity: 1;
+}
+
+div.card { 
+	overflow: hidden;
+border: none;
+ }
+.header {
+	padding-bottom: 2px;
+	border-bottom: 5px solid black;
+}
+header { 
+padding-top: 50px;
+}
+
+.line-str {
+	text-decoration: line-through;
+	color: #ccc;
+font-size: 13px;
+}
+
+.item-category-link {
+	color: darkgrey;
+	text-overflow: ellipsis;  
+}
+
+.item-category-link:hover {
+	color: #ccc !important;
+}
+div.head {
+	height: 5px;
+	background-color: #3184cc;
+}
+
+ul.social-links {
+	float: right;
+}
+ul.social-links li { 
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	background-color: rgba(49,133,203,0.65);
+	color: white;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+ }
+
+ ul.social-links li i{
+ 	color: white;
+ 	font-size: 1.2rem;
+ }
+ ul.social-links li:hover, ul.social-links li:hover i{
+ 	background: #3184cc;
+ }
+
+
+div.slider {
+	overflow: hidden;
+	border: 10px solid white;
+	border-radius: 10px;
+	height: 420px;
+}
+§
+div.slider .slide {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+#categories-navbar {
+	text-align: left;
+	    -webkit-box-align: left !important;
+	        -ms-flex-align: left !important;
+	            align-items: left !important;
+}
+
+#categories-navbar .nav-link, .dropdown-toggle {
+    padding: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+    font-size: 0.90rem;
+}
+
+.dropdown-menu {
+	z-index:666;
+}
+#categories-navbar .dropdown-item {
+	padding: 12px;
+}
+
+#categories-navbar .dropdown-toggle:hover {
+	color: #ed1b25 !important;
+
+}
+.nav-link:hover{
+	color: red !important;
+}
+
+.nav-item a, .nav-item a { 
+	color: black !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+     }
+
+ /* ANIMARTIONS */
+
+.nav-item > .router-link-active, .nav-item a.router-link-active {
+	color: #ed1b25 !important;
+	font-weight: bold;
+}
+
+.router-link-active {
+	cursor: default;
+}
+
+#toTop {
+	font-size: 2.3rem;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 667; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: #ccc; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    background: transparent;
+}
+
+#toTop:hover {
+    color: #ed1b25; /* Add a dark-grey background on hover */
+}
+
+
+
+/* PLUCK ANIM */
+@-webkit-keyframes puck {
+  0% {
+    left: 25px;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+
+@keyframes puck {
+  0% {
+    left: 25px;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+
+.puckmove-enter-active, .puckmove-leave-active {
+  -webkit-animation: puck 0.9s ease both;
+          animation: puck 0.9s ease both;
+
+}
+.puckmove-enter, .puckmove-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  /*opacity: 0*/
+}
+
+
+.fade-enter-active, .fade-leave-active {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  -webkit-transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+
+
+.spinner { 
+font-size: 23vh;
+
+
+vertical-align: middle !important;
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 100vh;
+    background: rgba(255, 255, 255, 0.75);
+
+}
+
+
+.spinner-start {
+		-webkit-animation-name: spinnerStart;
+	        animation-name: spinnerStart;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+}
+.spinner-stop {
+		-webkit-animation-name: snowflakeLoader;
+				animation-name: snowflakeLoader;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+            -webkit-animation-delay: 0.1s;
+                    animation-delay: 0.1s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+}
+
+@-webkit-keyframes spinnerStart {
+  0% {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+  }
+  30% {
+	opacity: 1;
+  }
+  100% {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	        transform: scale(1)
+	}
+}
+@keyframes spinnerStart {
+  0% {
+	opacity: 0;
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+  }
+  30% {
+	opacity: 1;
+  }
+  100% {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	}
+}
+
+
+
+@-webkit-keyframes snowflakeLoader {
+  0% {
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	opacity: 1;
+  }
+  100% {
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	opacity: 0;
+	}
+}
+@keyframes snowflakeLoader {
+  0% {
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	opacity: 1;
+  }
+  100% {
+	-webkit-transform: scale(0);
+	        transform: scale(0);
+	opacity: 0;
+	}
+}
+
+
+
+
+
+/* image load anim */
+@-webkit-keyframes blurOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes blurOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

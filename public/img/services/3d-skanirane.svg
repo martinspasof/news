@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#CCCCCC;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#CCCCCC;}
+	.st2{fill:#FFC421;}
+	.st3{fill:none;stroke:#CCCCCC;stroke-width:1.5;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{fill:#FFFFFF;}
+	.st6{clip-path:url(#SVGID_4_);}
+	.st7{fill:none;stroke:#FFC421;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFC421;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#CCCCCC;stroke-width:0.5232;stroke-miterlimit:10;}
+	.st10{fill:#B2B2B2;}
+	.st11{fill:#FFC420;}
+	.st12{fill:none;stroke:#FFFFFF;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st1" d="M135.9,183.9H84c-6.8,0-10.9-3.4-13-10.6l-15.5-48.6L70.9,77c2.2-7.1,6.3-10.6,12.7-10.6h47.6
+		c6.1,0,11,4.9,11,11l4.7,95.4C147,178.9,142,183.9,135.9,183.9z M58.6,124.7l15.2,47.7c1.7,6,4.8,8.5,10.2,8.5h52c4.4,0,8-3.6,8-8
+		l-4.7-95.3c0-4.5-3.6-8.1-8-8.1H83.6c-5,0-8,2.6-9.8,8.5L58.6,124.7z"/>
+</g>
+<g>
+	<path class="st1" d="M132.2,183.1c-0.4,0-0.7-0.3-0.7-0.7l-4.7-91.1c0-4.9-3.9-8.8-8.8-8.8H72.4c-0.4,0-0.8-0.3-0.8-0.8
+		s0.3-0.8,0.8-0.8H118c5.7,0,10.3,4.6,10.3,10.3l4.7,91.1C133,182.8,132.7,183.1,132.2,183.1C132.3,183.1,132.3,183.1,132.2,183.1z"
+		/>
+</g>
+<g>
+	<path class="st1" d="M101.3,156.3H88.4c-1.7,0-5.2,0-6.6-4.1l-5.1-16l5.2-15.8c1.7-4,4.7-4,6.5-4h10.8c2.5,0,4.5,2,4.6,4.5
+		l2.1,30.8C105.9,154.2,103.9,156.3,101.3,156.3z M79.9,136.2l4.8,15.1c0.6,1.9,1.8,2,3.7,2h12.9c0.9,0,1.6-0.7,1.6-1.5l-2.1-30.8
+		c0-0.9-0.7-1.6-1.6-1.6H88.4c-1.6,0-2.8,0-3.7,2.1L79.9,136.2z"/>
+</g>
+<g>
+	<path class="st2" d="M197.4,132.1c-0.3,0-0.5-0.1-0.8-0.2L148.4,102c-0.4-0.3-0.7-0.8-0.7-1.3s0.3-1,0.7-1.3l48.3-29.9
+		c0.7-0.4,1.6-0.2,2.1,0.5c0.4,0.7,0.2,1.6-0.5,2.1L152,100.7l46.2,28.7c0.7,0.4,0.9,1.4,0.5,2.1
+		C198.4,131.9,197.9,132.1,197.4,132.1z"/>
+</g>
+<g>
+	<defs>
+		<polyline id="SVGID_3_" points="197.4,130.6 149.1,100.7 197.4,70.7 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st4">
+		<circle class="st7" cx="149.8" cy="101" r="13.4"/>
+		<circle class="st7" cx="149.8" cy="101" r="24.5"/>
+		<circle class="st7" cx="149.8" cy="101" r="35.5"/>
+		<circle class="st7" cx="149.8" cy="101" r="46.6"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,128 @@
+.body{ background-image: url('../images/favicon.png') !important; 
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: bottom right;
+  }
+
+
+.thumb {
+  margin-bottom: 10px !important;
+  max-height: 120px !important;
+  overflow: hidden;
+}
+
+.controls-top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.controls-bottom {
+  position: absolute !important;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1000;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.calendar-text { color: white;}
+.btn-image-add {
+  float: left;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.btn-image-delete {
+  float: right;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.alert-hidden {
+  display: none;
+}
+
+.main-image {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  padding: 5px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.text-black {
+  color: black;
+}
+.panel-heading {
+  background-color: #f3f3f3 !important;
+}
+
+
+.spinLoader {
+  color: #a2a2a2 !important;;
+}
+
+.spinLoader i{
+  color: grey !important;;
+}
+
+.hover, .hover * {
+  padding: 5px;
+  font-size: 14px;
+    vertical-align: middle !important;
+}
+
+.hover input { 
+vertical-align: top !important;
+ }
+.hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hover i {
+  margin-top: 3px;
+}
+
+.hover:hover, .hover:hover * {
+  background: #f6f8fa;
+}
+
+.border-bot {
+  border-bottom: 1px solid #f6f8fa;
+}
+
+.badge {
+  margin: 1px;
+  font-size: 10px !important;
+  font-weight: 100;
+  font-family: Verdana;
+  background: #3097d1;
+}
+
+.badge, .badge * {
+  color: white !important;
+}
+
+.linethr {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.mx-auto {
+  padding-bottom: 20px;
+  margin: 0 auto !important;
+  display: block;
+  text-align: center;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
